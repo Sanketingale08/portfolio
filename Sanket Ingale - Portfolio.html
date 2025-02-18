@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/index.html# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanket Ingale - Portfolio</title>
+    
+<link rel="stylesheet" href="./Sanket Ingale - Portfolio_files/style.css"></head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/index.html#about">About</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#experience">Experience</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#projects">Projects</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#contact">Contact</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#" class="resume-btn">RESUME</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <div class="hero-text">
+                <h1>Hi, I'm Sanket Ingale</h1>
+                <p>I am a passionate UI/UX Designer with expertise in Figma, HTML, CSS, and JavaScript.</p>
+                <p> Ahmednagar, MH</p>
+                <div class="social-icons">
+                    <a href="http://127.0.0.1:5500/index.html#"><img src="./Sanket Ingale - Portfolio_files/linkedin.png" alt="LinkedIn"></a>
+                    <a href="http://127.0.0.1:5500/index.html#"><img src="./Sanket Ingale - Portfolio_files/github.png" alt="GitHub"></a>
+                </div>
+            </div>
+            <img src="./Sanket Ingale - Portfolio_files/profile.jpg" alt="Sanket Ingale" class="profile-pic">
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="img"><img src="./Sanket Ingale - Portfolio_files/profile(1).jpg" alt=""></div>
+        <div class=""><h2>About Me</h2>
+            <p>🚀 Passionate UI/UX Designer with a strong foundation in user-centered design.</p>
+            <p>🎨 Hands-on experience in creating intuitive digital experiences using Figma.</p>
+            <p>💡 Skilled in designing wireframes, prototypes, and user interfaces for seamless interactions.</p>
+            <p>📚 Basic knowledge of HTML, CSS, and JavaScript, enabling smooth collaboration with developers.</p></div>
+        
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience-card">
+            <h3>TwinsisTech | UI/UX Designer | Intern</h3>
+            <p>2025 Jan - Present</p>
+            <ul>
+                <li>Designed intuitive and user-friendly interfaces for three projects.</li>
+                <li>Created wireframes and prototypes to align with client objectives.</li>
+                <li>Worked with developers to implement functional UI designs.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <img src="./Sanket Ingale - Portfolio_files/html.png" alt="HTML">
+            <img src="./Sanket Ingale - Portfolio_files/css.png" alt="CSS">
+            <img src="./Sanket Ingale - Portfolio_files/javascript.png" alt="JavaScript">
+            <img src="./Sanket Ingale - Portfolio_files/figma.png" alt="Figma">
+            <img src="./Sanket Ingale - Portfolio_files/python.png" alt="Python">
+            <img src="./Sanket Ingale - Portfolio_files/github.png" alt="GitHub">
+            <img src="./Sanket Ingale - Portfolio_files/mysql.png" alt="MySQL">
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Dynamic Website of Coaching Classes</h3>
+            <p>HTML, CSS, JavaScript, PHP</p>
+            <ul>
+                <li>Developed a secure backend system for managing student registrations.</li>
+                <li>Optimized website performance for faster loading.</li>
+            </ul>
+        </div>
+        <div class="project-card">
+            <h3>Sanjivani International Relations Website</h3>
+            <p>HTML, TailwindCSS, JS, MERN Stack</p>
+            <ul>
+                <li>Developed a user-friendly website using the MERN stack.</li>
+                <li>Designed an intuitive UI for seamless navigation.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p>Email: <a href="mailto:ingalesanket2003@gmail.com">ingalesanket2003@gmail.com</a></p>
+        <p>WhatsApp: +91 9561573308</p>
+        <p>LinkedIn: <a href="http://127.0.0.1:5500/index.html#">sanketingale25</a></p>
+        <p>GitHub: <a href="http://127.0.0.1:5500/index.html#">sanketingale08</a></p>
+    </section>
+
+    <script src="./Sanket Ingale - Portfolio_files/script.js.download"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
